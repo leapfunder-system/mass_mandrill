@@ -46,21 +46,21 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<mandrill-api-json>, ["~> 1.0.56"])
       s.add_development_dependency(%q<rspec>, ["~> 2.13.0"])
-      s.add_development_dependency(%q<byebug>, ["~> 3.5.1"])
-      s.add_development_dependency(%q<rdoc>, ["~> 4.0.0"])
+      s.add_development_dependency(%q<byebug>, ["~> 11.1.3"])
+      s.add_development_dependency(%q<rdoc>, ["~> 6.8.1"])
       s.add_development_dependency(%q<jeweler>, ["~> 2.0.1"])
     else
       s.add_dependency(%q<mandrill-api-json>, ["~> 1.0.56"])
       s.add_dependency(%q<rspec>, ["~> 2.13.0"])
-      s.add_dependency(%q<byebug>, ["~> 3.5.1"])
-      s.add_dependency(%q<rdoc>, ["~> 4.0.0"])
+      s.add_dependency(%q<byebug>, ["~> 11.1.3"])
+      s.add_dependency(%q<rdoc>, ["~> 6.8.1"])
       s.add_dependency(%q<jeweler>, ["~> 2.0.1"])
     end
   else
     s.add_dependency(%q<mandrill-api-json>, ["~> 1.0.56"])
     s.add_dependency(%q<rspec>, ["~> 2.13.0"])
-    s.add_dependency(%q<byebug>, ["~> 3.5.1"])
-    s.add_dependency(%q<rdoc>, ["~> 4.0.0"])
+    s.add_dependency(%q<byebug>, ["~> 11.1.3"])
+    s.add_dependency(%q<rdoc>, ["~> 6.8.1"])
     s.add_dependency(%q<jeweler>, ["~> 2.0.1"])
   end
 end
